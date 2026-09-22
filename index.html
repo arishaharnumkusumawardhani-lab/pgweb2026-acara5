@@ -75,7 +75,7 @@
 
         });
 
-        $.getJSON("GeoJSON/toponimi.geojson", function (data) {
+        $.getJSON("geojson/toponimi.geojson", function (data) {
             toponimi.addData(data); // Menambahkan data ke dalam GeoJSON Point Sarana Prasarana
             map.addLayer(toponimi); // Menambahkan GeoJSON Point Sarana Prasarana ke dalam peta
         });
